@@ -1,0 +1,48 @@
+/*common css part starts*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 1170px;
+    margin:auto ;
+    
+}
+body{
+    background-color: #B5CFB7;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*common css partn ends*/
+
+#light h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+#light .center img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+#light button{
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #201E43;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    box-shadow:0 8px 50px 0 rgba(0, 0, 0, 0.20);
+}
+#light .btn{
+    border: none;
+}
